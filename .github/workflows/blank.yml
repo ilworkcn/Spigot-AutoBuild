@@ -15,7 +15,7 @@ jobs:
         with:
           java-version: 17
       - name: Run with Java
-        run: java -jar BuildTools.jar 
+        run: java -jar BuildTools.jar --rev 1.19
       - name: Upload Artifacts
         uses: actions/upload-artifact@v2
         with:
